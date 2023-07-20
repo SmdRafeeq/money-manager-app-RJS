@@ -1,0 +1,35 @@
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 10px;
+  border-bottom: 1px solid #cbd5e1;
+  border-right: 1px solid #cbd5e1;
+  border-left: 1px solid #cbd5e1;
+}
+
+.transaction-text {
+  width: 30%;
+  font-size: 12px;
+  color: #475569;
+}
+
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-image {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
